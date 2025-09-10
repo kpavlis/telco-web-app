@@ -1,0 +1,92 @@
+﻿@model MVC_Project.Models.Bill
+
+@{
+    ViewData["Title"] = "Pay Form";
+}
+
+
+<body style="background-image: url('https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); background-attachment: fixed; background-size: cover;">
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3 fixed-top" style="margin:1% 15% 0% 15%; border-radius: 14px; background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); border-color: lightgray; border-width: 1.8px; border-style: solid">
+        <div class="container-fluid">
+            <a class="navbar-brand disabled" style="cursor: default;">MVC Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-brand collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-action="Index">Αρχική</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Πελάτες
+                        </a>
+                        <ul class="dropdown-menu text-dark">
+                            <li><a class="dropdown-item" asp-controller="Client" asp-action="Bills">Προβολή λογαριασμού</a></li>
+                            <li><a class="dropdown-item" asp-controller="Client" asp-action="Calls">Προβολή ιστορικού κλήσεων</a></li>
+                            <li><a class="dropdown-item" asp-controller="Client" asp-action="Bills_Payment">Εξόφληση λογαριασμού</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark disabled" style="color: gray; opacity: 0.5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" tabindex="-1" aria-disabled="true">
+                            Διαχειριστές
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Δημιουργία νέου πωλητή</a></li>
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Δημιουργία νέων προγραμμάτων</a></li>
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Αλλαγή χαρακτηριστικών προγράμματος</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark disabled" style="color: gray; opacity: 0.5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Πωλητές
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Καταχώρηση νέου πελάτη</a></li>
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Έκδοση Λογαριασμού πελατών</a></li>
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Διαχείριση πελάτη</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+            <a class="nav-link text-dark" style="background-color:burlywood; border-radius: 6px; font-weight: bold" asp-action="Signout">Αποσύνδεση</a>
+
+
+        </div>
+    </nav>
+
+
+    <h2 style="text-align:center; margin-top: 10%"> Διαδικασία Πληρωμής</h2>
+
+    <h4 style="text-align:center; margin-top: 25px"> Ποσό πληρωμής: @(Model.Costs) €</h4>
+    
+    <form method="post" asp-action="Pay_Procedure" style="margin: 5% 35% 2% 35%; padding:18px; background: rgba(255,255,255,1); border-radius: 15px;">
+
+        <div class="mb-3" style="padding: 2px;">
+            <label class="form-label">Αριθμός Κάρτας</label>
+            <input class="form-control" name="card_number" type="number" value="" minlength="" maxlength="45">
+        </div>
+        <div class="mb-3" style="padding: 2px;">
+            <label class="form-label">Ονοματεπώνυμο Κατόχου</label>
+            <input class="form-control" name="name" type="text" value="">
+        </div>
+        <div class="mb-3" style="padding: 2px;">
+            <label class="form-label">Ημερομηνία Λήξης</label>
+            <input class="form-control" name="expiration" type="number" value="" minlength="" maxlength="45">
+        </div>
+        <div class="mb-3" style="padding: 2px;">
+            <label class="form-label">Κωδικός CVV</label>
+            <input class="form-control" name="cvv_code" type="number" value="">
+        </div>
+        <input class="form-control" name="bill" type="number" value="@(Model.BillId)" hidden>
+        <div class="mb-3" style="padding: 2px;">
+            <button type="submit" class="btn btn-primary">Πληρωμή</button>
+        </div>
+
+    </form>
+</body>

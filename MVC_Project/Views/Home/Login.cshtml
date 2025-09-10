@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+<body style="background-image: url('https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); background-attachment: fixed; background-size: cover;">
+
+    <h1 style="text-align: center; margin-top: 10%;"> Καλωσήρθατε </h1>
+
+    <form method="post" action="register" style="margin: 5% 35% 2% 35%; background: rgba(255,255,255,0.7); border-radius: 15px; backdrop-filter: blur(10px);">
+        <h3 style="text-align: center; padding: 8px;"> Login </h3>
+        <div class="mb-3" style="padding: 20px;">
+            <label class="form-label">Username</label>
+            <input class="form-control" name="username" type="text" value="" minlength="" maxlength="45">
+        </div>
+        <div class="mb-3" style="padding: 20px;">
+            <label class="form-label">Password</label>
+            <input class="form-control" name="password" type="password" value="">
+        </div>
+        <div class="mb-3" style="padding: 20px;">
+            <button type="submit" class="btn btn-primary">Σύνδεση</button>
+        </div>
+
+    </form>
+
+</body>
+

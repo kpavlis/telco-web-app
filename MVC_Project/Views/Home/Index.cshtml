@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<body style="background-image: url('https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); background-attachment: fixed; background-size: cover;">
+
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3 fixed-top" style="margin:1% 15% 0% 15%; border-radius: 14px; background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); border-color: lightgray; border-width: 1.8px; border-style: solid">
+            <div class="container-fluid">
+                <a class="navbar-brand disabled" style="cursor: default;">MVC Project</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-brand collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Αρχική</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Πελάτες
+                            </a>
+                            <ul class="dropdown-menu text-dark">
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Προβολή λογαριασμού</a></li>
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Προβολή ιστορικού κλήσεων</a></li>
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Εξόφληση λογαριασμού</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Διαχειριστές
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Δημιουργία νέου πωλητή</a></li>
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Διαχείριση προγραμμάτων</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Πωλητές
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Καταχώρηση νέου πελάτη</a></li>
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Έκδοση Λογαριασμού πελατών</a></li>
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Διαχείριση πελάτη</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            
+                
+                <a class="nav-link text-dark" style="background-color:burlywood; border-radius: 6px; font-weight: bold" asp-controller="Home" asp-action="Login">Σύνδεση >></a>
+               
+            
+            </div>
+    </nav>
+
+    <div style="margin: 25% 20% 2% 20%">
+        <h1 class="display-3" style="text-align:center; font-family: 'Bell MT' ; font-weight: bold">
+            Telekom Communications
+        </h1>
+        <h4 style="text-align:center"> Παρακαλούμε προχώρησε σε Login για να συνεχίσεις !</h4>
+    </div>
+
+</body>
