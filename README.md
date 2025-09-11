@@ -21,7 +21,7 @@ Telekom Communications is a web-based platform designed to simulate the operatio
 - Make online payments via card
 - View and manage subscribed mobile programs
 
-### 🛠️ Administrator Functionality
+### ⚙️ Administrator Functionality
 - Manage mobile programs (create, edit, delete)
 - Oversee sales and seller accounts
 - Create and manage user accounts
@@ -31,13 +31,13 @@ Telekom Communications is a web-based platform designed to simulate the operatio
 - Schedule and manage sales activities
 - Assign mobile programs to clients
 
-## 🧰 Technologies Used
+## 🛠️ Technologies Used
 
 - ASP.NET MVC Framework
-- C#
-- HTML5, CSS3, JavaScript
-- SQL Server (for data persistence)
-- Bootstrap (for responsive UI)
+- C# for the Businnes Logic
+- HTML5
+- SQL Server for data persistence
+- Bootstrap for responsive UI
 
 ## 🎯 Purpose
 
@@ -47,8 +47,8 @@ The purpose of this application is to provide a complete and functional web solu
 
 To run this project locally, you will need:
 
-- Visual Studio 2019 or later with ASP.NET MVC support
-- .NET Framework 4.7.2 or newer
+- Visual Studio 2012 or later with ASP.NET MVC support
+- .NET Framework 4.7.2
 - SQL Server Express or SQL Server Management Studio (SSMS)
 - A configured local IIS Express environment
 - Access to a database schema compatible with the application (SQL scripts provided if applicable)
@@ -60,6 +60,9 @@ To set up the project locally:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/kpavlis/telco-web-app.git
+   cd telco-web-app
+
+2. 
 
 # 🔒 Code Ownership & Usage Terms
 
