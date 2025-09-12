@@ -47,11 +47,12 @@ The purpose of this application is to provide a complete and functional web solu
 
 To run this project locally, you will need:
 
-- Visual Studio 2012 or later with ASP.NET MVC support
-- .NET Framework 4.7.2
-- SQL Server Express or SQL Server Management Studio (SSMS)
-- A configured local IIS Express environment
-- Access to a database schema compatible with the application (SQL scripts provided if applicable)
+- **Windows 10 version 1809 or later** (Windows 11 recommended)
+- **Visual Studio 2022** (version 17.1 or newer)
+- **SQL Server Express** and optionally **SQL Server Management Studio (SSMS)**
+- **Access to a database schema compatible with the application** (the database schema is provided)
+- **.NET SDK** (version 8)
+- **Developer Mode** enabled in Windows
 
 ## 📦 Installation
 
@@ -61,8 +62,31 @@ To set up the project locally:
    ```bash
    git clone https://github.com/kpavlis/telco-web-app.git
    cd telco-web-app
+2. **Open the project in Visual Studio 2022** using the `.sln` file
+3. **Confirm that the following NuGet packages are installed:**
+    - Microsoft.EntityFrameworkCore.SqlServer (version **9.0.9**)
+    - Microsoft.EntityFrameworkCore.Tools (version **9.0.9**)
+    - Microsoft.VisualStudio.Web.CodeGeneration.Design (version **9.0.0**)
+    - X.PagedList.Mvc.Core (version **10.5.x**)
+4. **Verify Target Framework**
+     In your `.csproj` file, ensure the framework is set correctly:
+   
+     ```xml
+     <TargetFramework>net8.0</TargetFramework>
 
-2. 
+5. **Install** SQL Server Express and optionally SQL Server Management Studio (SSMS)
+   - Update the connection string in `appsettings.json` and `LabDBContext.cs (Models folder)` to match your local SQL Server instance
+   - Run the provided SQL script `database_schema.sql` to initialize the schema and seed data
+
+6. **Run** the web application from  Visual Studio
+
+## 📷 Screenshots / Video
+
+**_App Screens:_**  
+
+
+**_Demo Video:_**
+
 
 # 🔒 Code Ownership & Usage Terms
 
