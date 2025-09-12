@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using MVC_Project.Models;
 using X.PagedList.Extensions;
+using MVC_Project.Filters;
 
 namespace MVC_Project.Controllers
 {
+    [SessionChecker]
     public class AdminController : Controller
     {
         private readonly ILogger<AdminController> _logger;
@@ -152,6 +154,7 @@ namespace MVC_Project.Controllers
             return RedirectToAction("Programs");
         }
 
+        [SkipSessionChecker]
         public IActionResult Signout()
         {
             HttpContext.Session.Clear();

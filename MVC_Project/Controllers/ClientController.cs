@@ -4,9 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using MVC_Project.Models;
 using MVC_Project.ViewModels;
 using X.PagedList.Extensions;
+using MVC_Project.Filters;
 
 namespace MVC_Project.Controllers
 {
+    [SessionChecker]
     public class ClientController : Controller
     {
         private readonly ILogger<ClientController> _logger;
@@ -165,7 +167,7 @@ namespace MVC_Project.Controllers
             return RedirectToAction("Bills_Payment");
         }
 
-
+        [SkipSessionChecker]
         public IActionResult Signout()
         {
             HttpContext.Session.Clear();

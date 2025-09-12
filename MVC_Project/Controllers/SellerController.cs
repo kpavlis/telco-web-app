@@ -5,9 +5,12 @@ using Microsoft.EntityFrameworkCore;
 using MVC_Project.Models;
 using MVC_Project.ViewModels;
 using X.PagedList.Extensions;
+using MVC_Project.Filters;
 
 namespace MVC_Project.Controllers
 {
+
+    [SessionChecker]
     public class SellerController : Controller
     {
         private readonly ILogger<SellerController> _logger;
@@ -180,6 +183,7 @@ namespace MVC_Project.Controllers
 
         }
 
+        [SkipSessionChecker]
         public IActionResult Signout()
         {
             HttpContext.Session.Clear();
