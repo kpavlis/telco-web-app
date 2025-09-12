@@ -83,10 +83,16 @@ To set up the project locally:
 ## 📷 Screenshots / Video
 
 **_App Screens:_**  
-
+> <img width="250" height="160" alt="Telco_Web_1" src="https://github.com/user-attachments/assets/1fb6045e-c3cf-4463-961f-3176fa65a1a0" />
+> <img width="250" height="160" alt="Telco_Web_2" src="https://github.com/user-attachments/assets/3eaf3324-9b27-439e-b215-3f6e0755db76" />
+> <img width="250" height="160" alt="Telco_Web_3" src="https://github.com/user-attachments/assets/7c2703de-514f-4880-8f60-cf3890268ee8" />
+> <img width="250" height="160" alt="Telco_Web_4" src="https://github.com/user-attachments/assets/07fe1245-e36f-44e1-bffb-b9af9071db2c" />
+> <img width="250" height="160" alt="Telco_Web_5" src="https://github.com/user-attachments/assets/e2fca18b-336d-4bc9-8511-8198e8269b13" />
+> <img width="250" height="160" alt="Telco_Web_6" src="https://github.com/user-attachments/assets/b7515985-eff7-482b-90ec-59b6e184d091" />
 
 **_Demo Video:_**
 
+> (Coming soon...)
 
 # 🔒 Code Ownership & Usage Terms
 
