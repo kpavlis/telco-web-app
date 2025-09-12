@@ -1,4 +1,4 @@
-# 📡 Web Application: Telekom Communications
+# 📡 Web Application: Global Communications
 
 **This project is a role-based telecommunications management system developed using the MVC (Model-View-Controller) architecture. It supports multiple user roles including Clients, Administrators, and Sellers.**
 
@@ -7,7 +7,7 @@
 
 ## 📖 Overview
 
-Telekom Communications is a web-based platform designed to simulate the operations of a telecommunications provider. It allows users to manage mobile programs, client accounts, call histories, and payments through a structured and secure interface. The system is modular, scalable, and built with maintainability in mind.
+Global Communications is a web-based platform designed to simulate the operations of a telecommunications provider. It allows users to manage mobile programs, client accounts, call histories, and payments through a structured and secure interface. The system is modular, scalable, and built with maintainability in mind.
 
 ## 🌐 Features
 
