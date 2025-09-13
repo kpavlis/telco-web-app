@@ -34,7 +34,7 @@ Global Communications is a web-based platform designed to simulate the operation
 ## 🛠️ Technologies Used
 
 - ASP.NET MVC Framework
-- C# for the Businnes Logic
+- C# for Business Logic
 - HTML5
 - SQL Server for data persistence
 - Bootstrap for responsive UI
@@ -42,6 +42,12 @@ Global Communications is a web-based platform designed to simulate the operation
 ## 🎯 Purpose
 
 The purpose of this application is to provide a complete and functional web solution for managing telecommunications services. It enables administrators to oversee mobile programs and user accounts, sellers to onboard clients and assign plans, and clients to view their billing history, call records, and make payments. The project demonstrates a practical implementation of role-based access control, data-driven interfaces, and secure transaction handling within a modern MVC framework. **It is developed solely for academic and research purposes.**
+
+## 📜 User Manual
+Detailed instructions on how to use this web application are available on a separate file.  
+It includes examples for all the possible user roles (Client, Administrator, Seller).
+
+👉🏼 [User Manual (in greek)](./User_Manual_gr.pdf)
 
 ## 🧰 Prerequisites
 
@@ -83,12 +89,13 @@ To set up the project locally:
 ## 📷 Screenshots / Video
 
 **_App Screens:_**  
-> <img width="250" height="160" alt="Telco_Web_1" src="https://github.com/user-attachments/assets/1fb6045e-c3cf-4463-961f-3176fa65a1a0" />
-> <img width="250" height="160" alt="Telco_Web_2" src="https://github.com/user-attachments/assets/3eaf3324-9b27-439e-b215-3f6e0755db76" />
-> <img width="250" height="160" alt="Telco_Web_3" src="https://github.com/user-attachments/assets/7c2703de-514f-4880-8f60-cf3890268ee8" />
-> <img width="250" height="160" alt="Telco_Web_4" src="https://github.com/user-attachments/assets/07fe1245-e36f-44e1-bffb-b9af9071db2c" />
-> <img width="250" height="160" alt="Telco_Web_5" src="https://github.com/user-attachments/assets/e2fca18b-336d-4bc9-8511-8198e8269b13" />
-> <img width="250" height="160" alt="Telco_Web_6" src="https://github.com/user-attachments/assets/b7515985-eff7-482b-90ec-59b6e184d091" />
+> <img width="250" height="160" alt="Telco_Web_1" src="https://github.com/user-attachments/assets/882d8a6d-79d5-4f66-92b6-b1d208e2acc9" />
+> <img width="250" height="160" alt="Telco_Web_2" src="https://github.com/user-attachments/assets/5df4ce01-bc40-49d6-b4ba-b593b929a7a4" />
+> <img width="250" height="160" alt="Telco_Web_3" src="https://github.com/user-attachments/assets/2c95735b-10e3-49a7-bd60-3876f953c4aa" />
+> <img width="250" height="160" alt="Telco_Web_4" src="https://github.com/user-attachments/assets/dcb5bb35-90ea-4029-aa26-717896feee00" />
+> <img width="250" height="160" alt="Telco_Web_5" src="https://github.com/user-attachments/assets/4c72a6d3-c5d3-49fa-980a-ff1d3035b833" />
+> <img width="250" height="160" alt="Telco_Web_6" src="https://github.com/user-attachments/assets/07eff9b1-bede-49fa-91f4-08b88a94f4ae" />
+
 
 **_Demo Video:_**
 
