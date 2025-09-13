@@ -34,7 +34,7 @@ Global Communications is a web-based platform designed to simulate the operation
 ## 🛠️ Technologies Used
 
 - ASP.NET MVC Framework
-- C# for the Businnes Logic
+- C# for Business Logic
 - HTML5
 - SQL Server for data persistence
 - Bootstrap for responsive UI
@@ -44,7 +44,7 @@ Global Communications is a web-based platform designed to simulate the operation
 The purpose of this application is to provide a complete and functional web solution for managing telecommunications services. It enables administrators to oversee mobile programs and user accounts, sellers to onboard clients and assign plans, and clients to view their billing history, call records, and make payments. The project demonstrates a practical implementation of role-based access control, data-driven interfaces, and secure transaction handling within a modern MVC framework. **It is developed solely for academic and research purposes.**
 
 ## 📜 User Manual
-Detailed instructions on how to use this web application is available on a separate file.  
+Detailed instructions on how to use this web application are available on a separate file.  
 It includes examples for all the possible user roles (Client, Administrator, Seller).
 
 👉🏼 [User Manual (in greek)](./User_Manual_gr.pdf)
