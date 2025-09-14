@@ -99,7 +99,7 @@ To set up the project locally:
 
 **_Demo Video:_**
 
-> (Coming soon...)
+> https://github.com/user-attachments/assets/8dd2c9f7-3a12-4fa9-998c-24dd3b6c91a0
 
 # 🔒 Code Ownership & Usage Terms
 
