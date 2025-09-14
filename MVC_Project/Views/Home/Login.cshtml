@@ -1,13 +1,21 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Login";
+}
+
+@section Styles {
+    <style>
+        .responsive-form {
+            margin: 5% auto 2% auto;
+            max-width: 350px;
+        }
+    </style>
 }
 
 <body style="background-image: url('https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); background-attachment: fixed; background-size: cover;">
 
     <h1 style="text-align: center; margin-top: 10%;"> Καλωσήρθατε </h1>
 
-    <form method="post" action="register" style="margin: 5% 35% 2% 35%; background: rgba(255,255,255,0.7); border-radius: 15px; backdrop-filter: blur(10px);">
+    <form method="post" action="register" class="responsive-form" style="background: rgba(255,255,255,0.7); border-radius: 15px; backdrop-filter: blur(10px); max-width: 400px; width: 100%; margin-left: auto; margin-right: auto;">
         <h3 style="text-align: center; padding: 8px;"> Login </h3>
         <div class="mb-3" style="padding: 20px;">
             <label class="form-label">Username</label>
@@ -20,7 +28,6 @@
         <div class="mb-3" style="padding: 20px;">
             <button type="submit" class="btn btn-primary">Σύνδεση</button>
         </div>
-
     </form>
 
 </body>

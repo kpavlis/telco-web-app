@@ -8,16 +8,15 @@
 
 
 <body style="background-image: url('https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); background-attachment: fixed; background-size: cover;">
-
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3 fixed-top" style="margin:1% 15% 0% 15%; border-radius: 14px; background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); border-color: lightgray; border-width: 1.8px; border-style: solid">
+    <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light box-shadow mb-3 fixed-top" style="margin:1% 15% 0% 15%; border-radius: 14px; background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); border-color: lightgray; border-width: 1.8px; border-style: solid">
         <div class="container-fluid">
             <a class="navbar-brand disabled" style="cursor: default;">MVC Project</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-brand collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
+            <div class="collapse navbar-collapse d-lg-inline-flex justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav flex-xl-grow-1 justify-content-center">
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-action="Index">Αρχική</a>
                     </li>
@@ -52,16 +51,16 @@
                         </ul>
                     </li>
                 </ul>
-            </div>
+            
 
 
             <a class="nav-link text-dark" style="background-color:burlywood; border-radius: 6px; font-weight: bold" asp-action="Signout">Αποσύνδεση</a>
 
-
+            </div>
         </div>
     </nav>
 
-    <h2 style="margin-top: 10%">Λίστα Προγραμμάτων</h2>
+    <h2 style="margin-top: 12%">Λίστα Προγραμμάτων</h2>
 
     <p style="margin-top: 2%">
         <a asp-action="CreateProgram" style="background-color:greenyellow; border-radius: 5px; padding: 5px; text-decoration:none; color: black; font-weight:bold">Δημιουργία νέου προγράμματος</a>

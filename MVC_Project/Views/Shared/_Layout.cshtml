@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MVC_Project.styles.css" asp-append-version="true" />
+	@await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
  
@@ -16,7 +17,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted" style="background-color: white">
+    <footer class="border-top footer text-muted w-100 position-fixed" style="background-color: white">
         <div class="container">
             &copy; 2025 - MVC Project - Developed for University of Pireaus
         </div>
