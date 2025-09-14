@@ -92,7 +92,7 @@
                         @Html.DisplayFor(modelItem => item.PhoneNumberNavigation.PhoneNumber)
                     </td>
                     <td>
-                        <a asp-action="Pay_Form" asp-route-id="@item.BillId" style="background-color:yellowgreen; border-radius: 5px; padding: 5px; text-decoration:none; color: black;">Πληρωμή</a>
+                        <a asp-action="Pay_Form" asp-route-id="@item.BillId" class="text-nowrap" style="background-color:yellowgreen; border-radius: 5px; padding: 5px; text-decoration:none; color: black;">Πληρωμή</a>
                     </td>
                 </tr>
             }

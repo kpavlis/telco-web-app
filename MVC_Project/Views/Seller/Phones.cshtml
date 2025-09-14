@@ -103,10 +103,10 @@
                         @Html.DisplayFor(modelItem => item.PhoneNumberNavigation.ProgramName)
                     </td>
                     <td>
-                        <a asp-action="EditPhone" asp-route-id="@item.PhoneNumber" style="background-color:gold; border-radius: 5px; padding: 5px; text-decoration:none; color: black;">Αλλαγή προγράμματος</a>
+                        <a asp-action="EditPhone" asp-route-id="@item.PhoneNumber" class="text-nowrap" style="background-color:gold; border-radius: 5px; padding: 5px; text-decoration:none; color: black;">Αλλαγή προγράμματος</a>
                     </td>
                     <td>
-                        <a asp-action="ClientCalls" asp-route-phonenumber="@item.PhoneNumber" style="background-color:lightskyblue; border-radius: 5px; padding: 5px; text-decoration:none; color: black;">Κλήσεις</a>
+                        <a asp-action="ClientCalls" asp-route-phonenumber="@item.PhoneNumber" class="text-nowrap" style="background-color:lightskyblue; border-radius: 5px; padding: 5px; text-decoration:none; color: black;">Κλήσεις</a>
                     </td>
 
                 </tr>
