@@ -9,6 +9,8 @@
 
 Global Communications is a web-based platform designed to simulate the operations of a telecommunications provider. It allows users to manage mobile programs, client accounts, call histories, and payments through a structured and secure interface. The system is modular, scalable, and built with maintainability in mind.
 
+> 📌 The `resources` folder contains supporting material such as screenshots, documentation, and database configuration files.
+
 ## 🌐 Features
 
 ### 🔐 Authentication
@@ -44,10 +46,11 @@ Global Communications is a web-based platform designed to simulate the operation
 The purpose of this application is to provide a complete and functional web solution for managing telecommunications services. It enables administrators to oversee mobile programs and user accounts, sellers to onboard clients and assign plans, and clients to view their billing history, call records, and make payments. The project demonstrates a practical implementation of role-based access control, data-driven interfaces, and secure transaction handling within a modern MVC framework. **It is developed solely for academic and research purposes.**
 
 ## 📜 User Manual
+
 Detailed instructions on how to use this web application are available on a separate file.  
 It includes examples for all the possible user roles (Client, Administrator, Seller).
 
-👉🏼 [User Manual (in greek)](./User_Manual_gr.pdf)
+👉🏼 [User Manual (in greek)](resources/docs/User_Manual_gr.pdf)
 
 ## 🧰 Prerequisites
 
@@ -56,7 +59,7 @@ To run this project locally, you will need:
 - **Windows 10 version 1809 or later** (Windows 11 recommended)
 - **Visual Studio 2022** (version 17.1 or newer)
 - **SQL Server Express** and optionally **SQL Server Management Studio (SSMS)**
-- **Access to a database schema compatible with the application** (the database schema is provided)
+- **Access to a database schema compatible with the application** (the database schema is provided <a href="resources/database_config/database_schema.sql">here</a>)
 - **.NET SDK** (version 8)
 - **Developer Mode** enabled in Windows
 
@@ -89,12 +92,12 @@ To set up the project locally:
 ## 📷 Screenshots / Video
 
 **_App Screens:_**  
-> <img width="250" height="160" alt="Telco_Web_1" src="https://github.com/user-attachments/assets/882d8a6d-79d5-4f66-92b6-b1d208e2acc9" />
-> <img width="250" height="160" alt="Telco_Web_2" src="https://github.com/user-attachments/assets/5df4ce01-bc40-49d6-b4ba-b593b929a7a4" />
-> <img width="250" height="160" alt="Telco_Web_3" src="https://github.com/user-attachments/assets/2c95735b-10e3-49a7-bd60-3876f953c4aa" />
-> <img width="250" height="160" alt="Telco_Web_4" src="https://github.com/user-attachments/assets/dcb5bb35-90ea-4029-aa26-717896feee00" />
-> <img width="250" height="160" alt="Telco_Web_5" src="https://github.com/user-attachments/assets/4c72a6d3-c5d3-49fa-980a-ff1d3035b833" />
-> <img width="250" height="160" alt="Telco_Web_6" src="https://github.com/user-attachments/assets/07eff9b1-bede-49fa-91f4-08b88a94f4ae" />
+> <img width="250" height="160" alt="Telco_Web_1" src="resources/screenshots/home_login.png" />
+> <img width="250" height="160" alt="Telco_Web_2" src="resources/screenshots/bills_list.png" />
+> <img width="250" height="160" alt="Telco_Web_3" src="resources/screenshots/bill_details.png" />
+> <img width="250" height="160" alt="Telco_Web_4" src="resources/screenshots/programs_list.png" />
+> <img width="250" height="160" alt="Telco_Web_5" src="resources/screenshots/customers_create.png" />
+> <img width="250" height="160" alt="Telco_Web_6" src="resources/screenshots/customers_list.png" />
 
 
 **_Demo Video:_**
