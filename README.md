@@ -9,7 +9,7 @@
 
 Global Communications is a web-based platform designed to simulate the operations of a telecommunications provider. It allows users to manage mobile programs, client accounts, call histories, and payments through a structured and secure interface. The system is modular, scalable, and built with maintainability in mind.
 
-> 📌 The **`resources`** folder contains supporting material such as screenshots, documents, and database configuration files.
+> 📌 The **`resources`** folder contains supporting material such as screenshots, PDFs and database configuration files.
 
 ## 🌐 Features
 
