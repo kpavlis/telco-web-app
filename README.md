@@ -67,7 +67,7 @@ To run this project locally, you will need:
 
 To set up the project locally:
 
-1. **Clone the repository**
+1. **Clone the repository (or download and decompress the ZIP file)**
    ```bash
    git clone https://github.com/kpavlis/telco-web-app.git
    cd telco-web-app
